@@ -5,12 +5,16 @@ set autoindent
 set undolevels=100
 syntax on
 set showcmd
+set cursorline "evidenzia linea del cursore
+set ruler "mostra riga e colonna in basso a destra
+set colorcolumn=81 "colora la colonna 81
 set guifont=Consolas:h8:cANSI "su unix meglio Monospace\ 8
 set lines=40
 set columns=120
 set ignorecase
 set smartcase
 set backspace=2
+set noswapfile " lo swap file tanto e' usato solo come backup in caso di crash del sistema
 filetype plugin indent on
 :command Cfg :e $HOME\_vimrc
 :ca Tb tabnew
