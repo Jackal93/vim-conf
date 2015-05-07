@@ -11,7 +11,7 @@ set ruler "mostra riga e colonna in basso a destra
 set colorcolumn=81 "colora la colonna 81
 if has("gui_running")
     set lines=40
-    set columns=90
+    set columns=85
 endif
 set ignorecase
 set smartcase
